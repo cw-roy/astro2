@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-
 import datetime
 import sys
 import requests
 from constants import constant1, constant2
 
+
 def get_observer_location():
+
     """Returns the longitude and latitude for the location of this machine.
     Returns:
     str: latitude
