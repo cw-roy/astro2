@@ -25,6 +25,8 @@ def get_observer_location():
     # NOTE: Replace with your real return values!
     return data.get("lat"), data.get("lon")
 
+get_observer_location():
+
 
 def get_sun_position(latitude, longitude, body="sun"):
     """Returns the current position of the sun in the sky at the specified location
