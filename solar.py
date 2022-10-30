@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+""" JR's solar lab solution, cleaned up with 'black' and Pylint
+    to conform to PEP8 specs."""
+
 import datetime
 import sys
 import requests
@@ -24,8 +27,6 @@ def get_observer_location():
     data = response.json()
     # NOTE: Replace with your real return values!
     return data.get("lat"), data.get("lon")
-
-get_observer_location():
 
 
 def get_sun_position(latitude, longitude, body="sun"):
